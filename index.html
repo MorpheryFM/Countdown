@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>⏱Timer⏱</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+
+    <div class="timer timer-input">
+        <div class="hours">
+          <input class="hours-input" type="number" min="0" max="60">
+        </div>
+
+        <div class="dots1">
+          <h1>:</h1>
+        </div>
+
+        <div class="minutes">
+          <input class="minutes-input" type="number" min="0" max="60">
+        </div>
+
+        <div class="dots2">
+          <h1>:</h1>
+        </div>
+
+        <div class="seconds">
+          <input class="seconds-input" type="number" min="0" max="60">
+        </div>
+
+    </div>
+    <div class="timer timer-countdown hidden">
+
+      <div class="hours">
+        <h1 class="hours-num">00</h1>
+      </div>
+
+      <div class="dots1">
+        <h1>:</h1>
+      </div>
+
+      <div class="minutes">
+        <h1 class="minutes-num">00</h1>
+      </div>
+
+      <div class="dots2">
+        <h1>:</h1>
+      </div>
+
+      <div class="seconds">
+        <h1 class="seconds-num">00</h1>
+      </div>
+
+    </div>
+    <div class="timesup hidden">
+      <h1>Time's Up!</h1>
+    </div>
+
+<div class="button-div timer">
+  <div class="hours">
+    <button class="start-btn btn" type="button" name="button">Start</button>
+  </div>
+
+  <div class="minutes">
+    <button class="pause-btn btn hidden" type="button" name="button">Pause</button>
+  </div>
+
+  <div class="seconds">
+    <button class="stop-btn btn hidden" type="button" name="button">Stop</button>
+  </div>
+</div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="index.js" charset="utf-8"></script>
+  </body>
+</html>
