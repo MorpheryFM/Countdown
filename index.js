@@ -9,7 +9,7 @@ var secondsPrint = 0;
 
 var stop = 0;
 
-var timeup = new Audio ('empanadas.mp3');
+var timeup = new Audio ('glass_onion_dong.mp3');
 
 function timesUp(){
   $(".timer-countdown").addClass("hidden");
